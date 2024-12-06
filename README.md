@@ -1,6 +1,5 @@
 # Mini ChatGPT
 ### _Simple Model, Bidirectional LLM_
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo/blob/main/your-notebook.ipynb)
 
