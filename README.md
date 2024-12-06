@@ -65,7 +65,7 @@ def chunk_text(text, max_length=1000):
 
 [![BiLSTM Image ](https://github.com/amarghimire/BiLSTM-Pdfchat/blob/main/BiLSTM-Figure.png)](https://github.com/amarghimire/BiLSTM-Pdfchat/blob/main/BiLSTM-Figure.png)
 
-
+Figure [Reference]
 
 
 We can see one more additional layer than that of the standard LSTM . The additional layer extract the result by analyzing the both sequential flow and give the result which is more convenient .
@@ -143,4 +143,4 @@ for  question  in  questions:
 [//]:#
 [BERT]: <https://huggingface.co/google-bert/bert-large-uncased-whole-word-masking-finetuned-squad>
 
-[BILSTM]:<https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm#:~:text=Bidirectional%20LSTM%20(BiLSTM)%20is%20a,utilizing%20information%20from%20both%20sides.>
+[Reference]:<https://www.baeldung.com/cs/bidirectional-vs-unidirectional-lstm#:~:text=Bidirectional%20LSTM%20(BiLSTM)%20is%20a,utilizing%20information%20from%20both%20sides.>
