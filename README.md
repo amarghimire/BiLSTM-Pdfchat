@@ -100,26 +100,18 @@ def save_answers_to_file(answers, output_file="answers.txt"):
 This is modification of the 
 ```sh
 def main(directory_path, question):
-    # Step 1: Extract text from all PDFs in the directory
     all_pdfs_text = extract_text_from_multiple_pdfs(directory_path)
-    
-    # Step 2: Preprocess the text
     preprocessed_text = preprocess_text(all_pdfs_text)
-    
-    # Step 3: Chunk the text if necessary (if it's too long)
     text_chunks = chunk_text(preprocessed_text, max_length=1000)
-    
-    # Step 4: Use the question-answering model to get answers from the chunks
     answers = process_text_in_chunks(question, text_chunks)
     save_answers_to_file(answers)
-    # Print the answers
     for i, answer in enumerate(answers):
         print(f"Answer from chunk {i+1}: {answer}")
 ```
 # 8. Example usage
 ```sh
 # Example usage
-directory_path = './'  # Replace with your PDF folder path
+directory_path = './'
 question = "What is Computer Science ? " #you can cange this question according to your pdf. 
 main(directory_path, question)
 ```
