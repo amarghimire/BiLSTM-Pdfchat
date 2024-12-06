@@ -112,9 +112,22 @@ def main(directory_path, question):
 ```sh
 # Example usage
 directory_path = './'
-question = "What is Computer Science ? " #you can cange this question according to your pdf. 
+question = "What is Heat ? " #you can cange this question according to your pdf. 
 main(directory_path, question)
 ```
+
+
+### Output:
+```sh
+Answer from chunk 1: FqNpNVeHqNpNVdqNdpN
+Answer from chunk 2: potential energy
+Answer from chunk 3: soft spheres are connected by a spring
+Answer from chunk 4: momentum is conserved
+Answer from chunk 5: constant temperature
+```
+
+You can change the number of the chunk in section to get result of your need. Here if you see the question is "what is Heat  ?" and we got the answer "Potential Energy " and "constant temperature " while the exact sentence is not in the PdF .
+
 
 # 9. Transformers on single paragraph
 
